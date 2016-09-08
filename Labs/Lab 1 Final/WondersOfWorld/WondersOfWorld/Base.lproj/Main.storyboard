@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WondersApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oE-xj-bHv">
+                                <rect key="frame" x="70" y="-49" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rf-o1-cpg">
+                                <rect key="frame" x="-84" y="2" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wonders of the World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml4-Qh-lGv">
+                                <rect key="frame" x="222" y="28" width="167" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="zzs-gD-Kcp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="zzs-gD-Kcp"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="zzs-gD-Kcp"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lSu-Xl-WpY">
+                                <rect key="frame" x="268" y="156" width="65" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBt-70-yEF">
+                                        <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
+                                        <state key="normal" title="Taj Mahal"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qdu-48-RKB"/>
+                                            <action selector="info:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nXY-xy-fsJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fuo-bA-hlV">
+                                <rect key="frame" x="165" y="65" width="269" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KF3-zj-s7v">
+                                        <rect key="frame" x="0.0" y="0.0" width="82" height="30"/>
+                                        <state key="normal" title="ChichenItza"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l0q-AA-qLP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwA-nT-eXz">
+                                        <rect key="frame" x="92" y="0.0" width="90" height="30"/>
+                                        <state key="normal" title="Christ Statue"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GF3-9t-ema"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9F-Tg-zya">
+                                        <rect key="frame" x="192" y="0.0" width="77" height="30"/>
+                                        <state key="normal" title="Colosseum"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RzT-ma-c5J"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nRU-mN-4le">
+                                <rect key="frame" x="166" y="112" width="268" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9or-6S-CSe">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="30"/>
+                                        <state key="normal" title="Great Wall"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xE-Nf-NGo"/>
+                                            <action selector="info:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4y7-Kh-VIg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ph-4f-azs">
+                                        <rect key="frame" x="81" y="0.0" width="93" height="30"/>
+                                        <state key="normal" title="MachuPicchu"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WtT-9v-cQp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEr-Z8-n3Y">
+                                        <rect key="frame" x="184" y="0.0" width="84" height="30"/>
+                                        <state key="normal" title="PetraJordan"/>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vLL-9s-Mmg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXe-DV-uoc">
+                                <rect key="frame" x="150" y="538" width="30" height="30"/>
+                                <state key="normal" title="Info">
+                                    <color key="titleColor" red="0.26008612019999999" green="0.62134691919999996" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="info:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6RA-3y-vwR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vE5-7K-0oH">
+                                <rect key="frame" x="205" y="542" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tajmahal" translatesAutoresizingMaskIntoConstraints="NO" id="tSA-fN-YxM">
+                                <rect key="frame" x="150" y="205" width="300" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tSA-fN-YxM" secondAttribute="height" multiplier="31:29" id="CaQ-ac-GHN"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="rtD-Fq-aWC"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="sE7-09-DhE"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="CaQ-ac-GHN"/>
+                                        <exclude reference="sE7-09-DhE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="CaQ-ac-GHN"/>
+                                        <include reference="sE7-09-DhE"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lSu-Xl-WpY" firstAttribute="height" secondItem="3ph-4f-azs" secondAttribute="height" id="5Hv-uA-FIa"/>
+                            <constraint firstItem="tSA-fN-YxM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6wX-WE-Djx"/>
+                            <constraint firstItem="tSA-fN-YxM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9uV-zW-Tnp"/>
+                            <constraint firstItem="nRU-mN-4le" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="92" id="Hv1-hy-0bJ"/>
+                            <constraint firstItem="lSu-Xl-WpY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JiT-oS-rmx"/>
+                            <constraint firstItem="Fuo-bA-hlV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NWF-9c-fZH"/>
+                            <constraint firstItem="ml4-Qh-lGv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ono-Hb-hYZ"/>
+                            <constraint firstItem="Fuo-bA-hlV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="Si1-F9-K78"/>
+                            <constraint firstItem="nRU-mN-4le" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xn9-ig-N1Y"/>
+                            <constraint firstItem="tXe-DV-uoc" firstAttribute="top" secondItem="tSA-fN-YxM" secondAttribute="bottom" constant="13" id="YF0-ol-Qso"/>
+                            <constraint firstItem="ml4-Qh-lGv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="5" id="aD8-cE-37G">
+                                <variation key="heightClass=compact-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="ml4-Qh-lGv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="apI-kS-oDO"/>
+                            <constraint firstItem="vE5-7K-0oH" firstAttribute="top" secondItem="tSA-fN-YxM" secondAttribute="bottom" constant="17" id="bev-P5-OiF"/>
+                            <constraint firstItem="lSu-Xl-WpY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="136" id="dGi-YQ-4iV"/>
+                            <constraint firstItem="tXe-DV-uoc" firstAttribute="leading" secondItem="tSA-fN-YxM" secondAttribute="leading" id="dVv-Ss-YQA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tSA-fN-YxM" secondAttribute="bottom" constant="75" id="gOh-pe-q8Y"/>
+                            <constraint firstItem="vE5-7K-0oH" firstAttribute="leading" secondItem="tXe-DV-uoc" secondAttribute="trailing" constant="25" id="ge3-Wf-qNm"/>
+                            <constraint firstItem="nRU-mN-4le" firstAttribute="height" secondItem="KF3-zj-s7v" secondAttribute="height" id="kHE-0R-8iQ"/>
+                            <constraint firstItem="tSA-fN-YxM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="knM-NU-cDc"/>
+                            <constraint firstItem="tSA-fN-YxM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="185" id="nz6-IU-cqz"/>
+                            <constraint firstItem="Fuo-bA-hlV" firstAttribute="centerY" secondItem="ml4-Qh-lGv" secondAttribute="centerY" constant="41.5" id="t1B-nN-Yvl"/>
+                            <constraint firstItem="ml4-Qh-lGv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zit-gv-wfR"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ono-Hb-hYZ"/>
+                                <exclude reference="zit-gv-wfR"/>
+                                <exclude reference="6wX-WE-Djx"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="8oE-xj-bHv"/>
+                                <include reference="7rf-o1-cpg"/>
+                                <include reference="ml4-Qh-lGv"/>
+                                <include reference="lSu-Xl-WpY"/>
+                                <include reference="Fuo-bA-hlV"/>
+                                <include reference="tXe-DV-uoc"/>
+                                <include reference="tSA-fN-YxM"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Ono-Hb-hYZ"/>
+                                <include reference="zit-gv-wfR"/>
+                                <include reference="6wX-WE-Djx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="displayPic" destination="tSA-fN-YxM" id="F6W-VX-Yqw"/>
+                        <outlet property="infoMsg" destination="vE5-7K-0oH" id="oVW-oF-8Vq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Tajmahal" width="426" height="320"/>
+    </resources>
+</document>
