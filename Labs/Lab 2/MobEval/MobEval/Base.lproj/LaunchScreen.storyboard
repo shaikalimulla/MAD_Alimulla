@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchPic" translatesAutoresizingMaskIntoConstraints="NO" id="i7z-HW-yXt">
+                                <rect key="frame" x="40" y="70" width="520" height="330"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hello! Do you know who released best mobile phone in early 2000s and how did it look? Please wait for the app to find out! " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZHR-kz-NQE">
+                                <rect key="frame" x="40" y="439" width="511" height="75"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.62933573300000001" green="0.10237350589999999" blue="0.090281278179999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="i7z-HW-yXt" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="50" id="Iyd-Rg-6Un"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="i7z-HW-yXt" secondAttribute="bottom" constant="200" id="TRB-Lj-a6v"/>
+                            <constraint firstItem="i7z-HW-yXt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="Tvj-vo-QXh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZHR-kz-NQE" secondAttribute="trailing" constant="29" id="VAS-ct-ufq"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ZHR-kz-NQE" secondAttribute="bottom" constant="86" id="fDd-iW-cPU"/>
+                            <constraint firstItem="i7z-HW-yXt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iyH-cz-ihg"/>
+                            <constraint firstItem="ZHR-kz-NQE" firstAttribute="leading" secondItem="i7z-HW-yXt" secondAttribute="leading" id="ldm-1q-9w9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i7z-HW-yXt" secondAttribute="trailing" constant="20" id="pam-Ga-qTW"/>
+                            <constraint firstItem="ZHR-kz-NQE" firstAttribute="top" secondItem="i7z-HW-yXt" secondAttribute="bottom" constant="39" id="sUY-pX-wyt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="173" y="496"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchPic" width="323" height="181"/>
+    </resources>
+</document>
