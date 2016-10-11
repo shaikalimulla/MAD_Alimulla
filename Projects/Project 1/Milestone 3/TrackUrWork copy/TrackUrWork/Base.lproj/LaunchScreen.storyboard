@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="load" translatesAutoresizingMaskIntoConstraints="NO" id="gGf-6q-b3s">
+                                <rect key="frame" x="160" y="95" width="281" height="269"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="You can create &amp; manage tasks and even track your work hours using this app." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4tP-87-wkT">
+                                <rect key="frame" x="160" y="397" width="332" height="98"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="R5y-D3-7gZ"/>
+                                </constraints>
+                                <color key="textColor" red="0.62933573300000001" green="0.10237350589999999" blue="0.090281278179999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gGf-6q-b3s" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4ZC-p7-sUI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4tP-87-wkT" secondAttribute="trailing" constant="88" id="PK0-fp-EPR"/>
+                            <constraint firstItem="4tP-87-wkT" firstAttribute="leading" secondItem="gGf-6q-b3s" secondAttribute="leading" id="Pfa-lq-6Vv"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="4tP-87-wkT" secondAttribute="bottom" constant="105" id="f5I-Jl-NsG"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gGf-6q-b3s" secondAttribute="bottom" constant="236" id="uIp-UW-Z0d"/>
+                            <constraint firstItem="gGf-6q-b3s" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="75" id="vae-d9-dfp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="load" width="281" height="133"/>
+    </resources>
+</document>
