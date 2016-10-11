@@ -6,6 +6,13 @@
 //  Copyright © 2016 Apress Inc. All rights reserved.
 //
 
+/*
+ References used for this project are listed below.
+ For TableView - https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson7.html
+ For date and time manipulation - https://developer.apple.com/reference/foundation/nscalendar
+ Multiview infromation - Class notes (http://creative.colorado.edu/~apierce/MAD/)
+ */
+
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
