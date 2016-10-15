@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410D820A1DA6C1F300EB4F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D82091DA6C1F300EB4F1E /* AppDelegate.swift */; };
+		410D820C1DA6C1F300EB4F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D820B1DA6C1F300EB4F1E /* ViewController.swift */; };
+		410D820F1DA6C1F300EB4F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410D820D1DA6C1F300EB4F1E /* Main.storyboard */; };
+		410D82111DA6C1F300EB4F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410D82101DA6C1F300EB4F1E /* Assets.xcassets */; };
+		410D82141DA6C1F300EB4F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410D82121DA6C1F300EB4F1E /* LaunchScreen.storyboard */; };
+		410D821C1DA6C26500EB4F1E /* minions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 410D821B1DA6C26500EB4F1E /* minions.jpg */; };
+		410D821E1DA6CEE300EB4F1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410D821D1DA6CEE300EB4F1E /* AVFoundation.framework */; };
+		410D82201DA6D08F00EB4F1E /* minions-tadaa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 410D821F1DA6D08F00EB4F1E /* minions-tadaa.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		410D82061DA6C1F200EB4F1E /* Gesture_Minion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesture_Minion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410D82091DA6C1F300EB4F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410D820B1DA6C1F300EB4F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		410D820E1DA6C1F300EB4F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410D82101DA6C1F300EB4F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410D82131DA6C1F300EB4F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410D82151DA6C1F300EB4F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410D821B1DA6C26500EB4F1E /* minions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minions.jpg; sourceTree = "<group>"; };
+		410D821D1DA6CEE300EB4F1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		410D821F1DA6D08F00EB4F1E /* minions-tadaa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minions-tadaa.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410D82031DA6C1F200EB4F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D821E1DA6CEE300EB4F1E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410D81FD1DA6C1F200EB4F1E = {
+			isa = PBXGroup;
+			children = (
+				410D821D1DA6CEE300EB4F1E /* AVFoundation.framework */,
+				410D82081DA6C1F300EB4F1E /* Gesture_Minion */,
+				410D82071DA6C1F200EB4F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410D82071DA6C1F200EB4F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410D82061DA6C1F200EB4F1E /* Gesture_Minion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410D82081DA6C1F300EB4F1E /* Gesture_Minion */ = {
+			isa = PBXGroup;
+			children = (
+				410D82091DA6C1F300EB4F1E /* AppDelegate.swift */,
+				410D820B1DA6C1F300EB4F1E /* ViewController.swift */,
+				410D820D1DA6C1F300EB4F1E /* Main.storyboard */,
+				410D821B1DA6C26500EB4F1E /* minions.jpg */,
+				410D821F1DA6D08F00EB4F1E /* minions-tadaa.mp3 */,
+				410D82101DA6C1F300EB4F1E /* Assets.xcassets */,
+				410D82121DA6C1F300EB4F1E /* LaunchScreen.storyboard */,
+				410D82151DA6C1F300EB4F1E /* Info.plist */,
+			);
+			path = Gesture_Minion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410D82051DA6C1F200EB4F1E /* Gesture_Minion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D82181DA6C1F300EB4F1E /* Build configuration list for PBXNativeTarget "Gesture_Minion" */;
+			buildPhases = (
+				410D82021DA6C1F200EB4F1E /* Sources */,
+				410D82031DA6C1F200EB4F1E /* Frameworks */,
+				410D82041DA6C1F200EB4F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gesture_Minion;
+			productName = Gesture_Minion;
+			productReference = 410D82061DA6C1F200EB4F1E /* Gesture_Minion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410D81FE1DA6C1F200EB4F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Apress Inc";
+				TargetAttributes = {
+					410D82051DA6C1F200EB4F1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4573YM5E29;
+					};
+				};
+			};
+			buildConfigurationList = 410D82011DA6C1F200EB4F1E /* Build configuration list for PBXProject "Gesture_Minion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410D81FD1DA6C1F200EB4F1E;
+			productRefGroup = 410D82071DA6C1F200EB4F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410D82051DA6C1F200EB4F1E /* Gesture_Minion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410D82041DA6C1F200EB4F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D82201DA6D08F00EB4F1E /* minions-tadaa.mp3 in Resources */,
+				410D82141DA6C1F300EB4F1E /* LaunchScreen.storyboard in Resources */,
+				410D82111DA6C1F300EB4F1E /* Assets.xcassets in Resources */,
+				410D820F1DA6C1F300EB4F1E /* Main.storyboard in Resources */,
+				410D821C1DA6C26500EB4F1E /* minions.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410D82021DA6C1F200EB4F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D820C1DA6C1F300EB4F1E /* ViewController.swift in Sources */,
+				410D820A1DA6C1F300EB4F1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		410D820D1DA6C1F300EB4F1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410D820E1DA6C1F300EB4F1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410D82121DA6C1F300EB4F1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410D82131DA6C1F300EB4F1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410D82161DA6C1F300EB4F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410D82171DA6C1F300EB4F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410D82191DA6C1F300EB4F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Gesture_Minion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beginningiphone.Gesture-Minion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		410D821A1DA6C1F300EB4F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Gesture_Minion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beginningiphone.Gesture-Minion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410D82011DA6C1F200EB4F1E /* Build configuration list for PBXProject "Gesture_Minion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D82161DA6C1F300EB4F1E /* Debug */,
+				410D82171DA6C1F300EB4F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410D82181DA6C1F300EB4F1E /* Build configuration list for PBXNativeTarget "Gesture_Minion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D82191DA6C1F300EB4F1E /* Debug */,
+				410D821A1DA6C1F300EB4F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410D81FE1DA6C1F200EB4F1E /* Project object */;
+}

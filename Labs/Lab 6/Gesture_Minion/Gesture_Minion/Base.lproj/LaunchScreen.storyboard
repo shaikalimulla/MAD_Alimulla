@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="Dec-8X-OUW">
+                                <rect key="frame" x="30" y="50" width="540" height="300"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Play using gestures and have fun with minions app! " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hiN-tF-506">
+                                <rect key="frame" x="30" y="370" width="540" height="47"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="Lmb-CT-LMV"/>
+                                </constraints>
+                                <color key="textColor" red="0.62933573300000001" green="0.10237350589999999" blue="0.090281278179999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dec-8X-OUW" secondAttribute="trailing" constant="10" id="3kO-lK-6Bt"/>
+                            <constraint firstItem="Dec-8X-OUW" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="10" id="4Rm-ZW-hdq"/>
+                            <constraint firstItem="hiN-tF-506" firstAttribute="leading" secondItem="Dec-8X-OUW" secondAttribute="leading" id="SrE-eW-cCT"/>
+                            <constraint firstItem="hiN-tF-506" firstAttribute="top" secondItem="Dec-8X-OUW" secondAttribute="bottom" constant="20" id="Ys2-Jx-Lvs"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hiN-tF-506" secondAttribute="bottom" constant="183" id="ph6-Iq-Fkf">
+                                <variation key="heightClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="Dec-8X-OUW" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="30" id="qaB-Vm-bwQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hiN-tF-506" secondAttribute="trailing" constant="10" id="tmD-3s-pgR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch" width="480" height="300"/>
+    </resources>
+</document>
