@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alimu.lab7.MainActivity">
+
+    <TextView
+        android:text="@string/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="@string/degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:entries="@array/degrees"
+        android:layout_below="@+id/userNameText"
+        android:layout_alignLeft="@+id/userNameText"
+        android:layout_alignStart="@+id/userNameText" />
+
+    <!--
+    <TextView
+        android:text="Interested in?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/job_type_group"
+        android:layout_toRightOf="@+id/detailsText" />
+    -->
+
+    <CheckBox
+        android:text="@string/fulltime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_type_group"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/checkBox3" />
+    <CheckBox
+        android:text="@string/parttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox5"
+        android:layout_below="@+id/job_type_group"
+        android:layout_toRightOf="@+id/checkBox3"
+        android:layout_toEndOf="@+id/checkBox3"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:text="@string/intern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox4"
+        android:layout_below="@+id/job_type_group"
+        android:layout_toRightOf="@+id/checkBox5"
+        android:layout_toEndOf="@+id/checkBox5"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:text="@string/coop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        android:layout_toRightOf="@+id/checkBox4"
+        android:layout_toEndOf="@+id/checkBox4"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/checkBox4" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/authorizeToggleButton"
+        android:textOn="@string/toggle_on"
+        android:textOff="@string/toggle_off"
+        android:layout_below="@+id/checkBox4"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation='horizontal'
+        android:id="@+id/job_type_group"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+    <RadioButton
+        android:text="@string/area1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_alignRight="@+id/checkBox2"
+        android:layout_alignEnd="@+id/checkBox2"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="40dp"
+        android:id="@+id/radioButton"
+        android:layout_weight="0.26" />
+
+    <RadioButton
+        android:text="@string/area2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/authorizeToggleButton"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="45dp"
+        android:id="@+id/radioButton2" />
+
+    <RadioButton
+        android:text="@string/area3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radioButton2"
+        android:layout_toLeftOf="@+id/authorizeToggleButton"
+        android:layout_toStartOf="@+id/authorizeToggleButton"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/radioButton3" />
+
+        <RadioButton
+            android:text="@string/area4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/radioButton3"
+            android:layout_toLeftOf="@+id/authorizeToggleButton"
+            android:layout_toStartOf="@+id/authorizeToggleButton"
+            android:id="@+id/radioButton4" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/doneButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailsText"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/doneButton"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailsText"
+            android:layout_marginTop="5dp"
+            android:id="@+id/img"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/userNameText"
+        android:hint="@string/name_edit"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/authorizeToggleButton"
+        android:layout_toEndOf="@+id/authorizeToggleButton" />
+
+    <Switch
+        android:text="@string/visa_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_alignBaseline="@+id/authorizeToggleButton"
+        android:layout_alignBottom="@+id/authorizeToggleButton"
+        android:layout_toLeftOf="@+id/checkBox4"
+        android:layout_toStartOf="@+id/checkBox4" />
+
+    <Button
+        android:text="@string/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doneButton"
+        android:onClick="findDetails"
+        android:layout_below="@+id/checkBox4"
+        android:layout_alignRight="@+id/userNameText"
+        android:layout_alignEnd="@+id/userNameText" />
+
+</RelativeLayout>

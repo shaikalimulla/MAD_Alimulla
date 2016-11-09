@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lab 7</string>
+    <string name="name_edit">Name</string>
+    <string name="name_text">Enter Name:</string>
+    <string name="done_button">Done</string>
+    <string name="degree">  Degree:</string>
+    <string-array name="degrees">
+        <item> Bachelors </item>
+        <item> Masters </item>
+        <item> PhD </item>
+        <item> MBA </item>
+    </string-array>
+    <string name="toggle_on">YES</string>
+    <string name="toggle_off">NO</string>
+    <string name="visa_switch">Visa?</string>
+
+    <string name="radio_group">JobType</string>
+    <string name="fulltime">FullTime</string>
+    <string name="parttime">PartTime</string>
+    <string name="intern">Intern</string>
+    <string name="coop">Co-op</string>
+
+    <string name="area1">CS</string>
+    <string name="area2">EE</string>
+    <string name="area3">Mech</string>
+    <string name="area4">Civil</string>
+</resources>
