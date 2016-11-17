@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:appname="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_speech"
+        android:icon="@drawable/ic_perm_camera_mic"
+        android:showAsAction="always"
+        android:title="Speech"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        />
+
+    <item android:id="@+id/action_info"
+        android:icon="@drawable/ic_info"
+        appname:showAsAction="ifRoom"
+        android:title="Info"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        />
+
+    <item android:id="@+id/action_home"
+        appname:showAsAction="ifRoom"
+        android:title="Home"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        />
+
+</menu>
