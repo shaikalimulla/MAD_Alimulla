@@ -1,0 +1,4 @@
+References:
+1. https://developer.android.com/guide/topics/ui/layout/listview.html
+2. https://developer.android.com/guide/topics/ui/layout/gridview.html
+3. https://developer.android.com/training/camera/photobasics.html
