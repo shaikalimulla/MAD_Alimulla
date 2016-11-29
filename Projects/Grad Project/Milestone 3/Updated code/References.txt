@@ -1,0 +1,6 @@
+References:
+1. https://developer.android.com/guide/topics/ui/layout/listview.html
+2. https://developer.android.com/guide/topics/ui/layout/gridview.html
+3. https://developer.android.com/training/camera/photobasics.html
+4. https://material.io/icons/#ic_content_cut
+5. https://www.google.com/search?q=folder+icons&espv=2&biw=1366&bih=662&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj0q9yBgM3QAhXBxYMKHU37ALUQ_AUIBigB#tbm=isch&q=folder+icons&chips=q:folder+icons,g_2:red&imgrc=LV4afJEUIaWGkM%3A
