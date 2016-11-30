@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SearchNearMe</string>
+    <string name="title_activity_maps">SearchNearMe</string>
+    <string name="button_label">Search</string>
+    <string name="zip_button">Update Location</string>
+    <string name="place_hint">Search Places Near By</string>
+    <string name="zip_hint">Enter Zip code</string>
+</resources>

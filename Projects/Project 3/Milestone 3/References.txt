@@ -1,0 +1,5 @@
+References:
+1. https://www.google.com/search?q=find+places+nearby+images&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjlnozkxM_QAhVE_4MKHYydB7IQ_AUICSgC&biw=1366&bih=662#tbm=isch&q=google+maps&imgrc=N5te1LV3wbMciM%3A
+2. https://developers.google.com/maps/documentation/android-api/location
+3. https://developers.google.com/places/android-api/
+

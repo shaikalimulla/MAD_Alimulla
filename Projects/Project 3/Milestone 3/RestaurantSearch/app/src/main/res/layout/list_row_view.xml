@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="120dp"
+        >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/placeName"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:maxWidth="200dp"
+            android:maxLines="2"
+            android:textColor="@color/list_bg_color"
+            android:fontFamily="sans-serif"
+             />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/list_bg_color"
+                android:fontFamily="sans-serif"
+                android:layout_below="@id/placeName"
+
+                />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/list_bg_color"
+                android:fontFamily="sans-serif"
+                android:layout_below="@id/placeName"
+
+                />
+
+            <TextView
+                android:id="@+id/availability"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/bg_color_green"
+                android:fontFamily="sans-serif"
+                android:layout_below="@id/placeName"
+
+                />
+
+
+
+
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
