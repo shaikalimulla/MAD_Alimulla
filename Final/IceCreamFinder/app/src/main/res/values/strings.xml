@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IceCreamFinder</string>
+    <string name="title">I Scream for Ice Cream </string>
+    <string name="name_edit">Type treat name</string>
+    <string name="done_button">Done</string>
+    <string name="find_button">Find Shops</string>
+    <string name="degree">  Degree:</string>
+    <string-array name="flavors">
+        <item> Death by chocolate </item>
+        <item> Salted caramel </item>
+        <item> Cookies and Cream </item>
+    </string-array>
+    <string name="toggle_on">cone</string>
+    <string name="toggle_off">cup</string>
+    <string name="dairy_switch">Dairy-Free?</string>
+
+    <string name="radio_group">IceCreamType</string>
+    <string name="icecream">IceCream</string>
+    <string name="yogurt">Frozen Yogurt</string>
+    <string name="gelato">Gelato</string>
+
+    <string name="sprinkles">sprinkles</string>
+    <string name="hotfudge">hot fudge</string>
+    <string name="nuts">nuts</string>
+</resources>
